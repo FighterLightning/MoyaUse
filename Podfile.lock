@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.8.0)
+  - Chrysan (1.4.0)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - ObjectMapper (3.4.1)
+  - Result (4.0.0)
+
+DEPENDENCIES:
+  - Chrysan (from `https://github.com/Harley-xk/Chrysan.git`)
+  - Moya
+  - ObjectMapper
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Moya
+    - ObjectMapper
+    - Result
+
+EXTERNAL SOURCES:
+  Chrysan:
+    :git: https://github.com/Harley-xk/Chrysan.git
+
+CHECKOUT OPTIONS:
+  Chrysan:
+    :commit: 011feed4f2e41c5a2a6f10c42e0ddcce945980ad
+    :git: https://github.com/Harley-xk/Chrysan.git
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  Chrysan: 14c23bd647d5adaef5e3cd796dd5c51d2f7b451f
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  ObjectMapper: 5311bd50ca732930959e7ca1a2de43ab823a5ced
+  Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
+
+PODFILE CHECKSUM: 0f9c1c1fda978d652180149bd7506eef6c6a57b5
+
+COCOAPODS: 1.5.3
